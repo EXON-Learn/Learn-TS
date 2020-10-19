@@ -65,4 +65,8 @@ let teacher = new Teacher('Mrs.Park')
 teacher.name = 'Mr.Lee'
 console.log(`${teacher.name}`)
 
+
+// 끝
+console.log('[와! 정말 수고했어요~! 끝!]')
+
 export {}; // 없으면 에러. 버그같은 거 일단 넘어가기.
