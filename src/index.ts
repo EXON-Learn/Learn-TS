@@ -5,11 +5,23 @@ let name: string = 'hello'
 console.log(name)
 
 // 함수 선언
-console.log('[함수 선언]')
+console.log('\n[함수 선언]')
 
 function hello(): void {
     console.log('hello')
 }
+
+hello()
+
+// 배열, 튜플 선언
+console.log('\n[배열, 튜플 선언]')
+
+// 배열
+const p: number[] = [1, 1, 2, 3, 2, 1]
+const todayClass: Array<string> = ['Korean', 'Math', "English"] // 제네릭(일반화)
+// 튜플
+const exam: [string, number] = ['Korean', 100]
+
 
 // 인터페이스
 console.log('\n[인터페이스]')
