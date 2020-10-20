@@ -1,14 +1,18 @@
 # Learn-TS
 꼭꼭감아라
 
-## code
+## 변수 선언
 ```ts
 // 변수 선언
 console.log('[변수 선언]')
 
 let name: string = 'hello'
 console.log(name)
+```
+:(콜론) 뒤에 변수의 타입을 명시해줌 <br>
 
+## 인터페이스
+```ts
 // 인터페이스
 console.log('\n[인터페이스]')
 
@@ -25,7 +29,10 @@ const me: Info = {
     description: '멍청함'
 }
 showInfo(me)
+```
 
+## 클래스
+```ts
 // 클래스
 console.log('\n[클래스]')
 
@@ -44,7 +51,10 @@ class Student {
 
 let student: Student = new Student('exon', 14, 1)
 console.log(`Name : ${student.name}]\nAge : ${student.age}\nClass : ${student.classNum}`)
+```
 
+## 프로포티
+```ts
 // 프로포티
 console.log('\n[프로포티]')
 
