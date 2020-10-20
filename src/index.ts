@@ -4,6 +4,13 @@ console.log('[변수 선언]')
 let name: string = 'hello'
 console.log(name)
 
+// 함수 선언
+console.log('[함수 선언]')
+
+function hello(): void {
+    console.log('hello')
+}
+
 // 인터페이스
 console.log('\n[인터페이스]')
 

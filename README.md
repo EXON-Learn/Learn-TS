@@ -11,6 +11,17 @@ console.log(name)
 ```
 :(콜론) 뒤에 변수의 타입을 명시해줌 <br>
 
+## 함수 선언
+```ts
+// 함수 선언
+console.log('[함수 선언]')
+
+function hello(): void {
+    console.log('hello')
+}
+```
+:(콜론) 뒤에 함수 반환값의 타입을 명시해줌 <br>
+
 ## 인터페이스
 ```ts
 // 인터페이스
